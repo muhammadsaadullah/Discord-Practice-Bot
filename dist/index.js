@@ -1,12 +1,10 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const discord_js_1 = require("discord.js");
-require("dotenv/config");
-const client = new discord_js_1.Client({
+import { Client, GatewayIntentBits, userMention } from 'discord.js';
+import 'dotenv/config';
+const client = new Client({
     intents: [
-        discord_js_1.GatewayIntentBits.Guilds,
-        discord_js_1.GatewayIntentBits.GuildMessages,
-        discord_js_1.GatewayIntentBits.MessageContent,
+        GatewayIntentBits.Guilds,
+        GatewayIntentBits.GuildMessages,
+        GatewayIntentBits.MessageContent,
     ]
 });
 client.once('ready', () => {
@@ -15,7 +13,7 @@ client.once('ready', () => {
 client.on('messageCreate', (message) => {
     if (message.content === "!hey" && !message.author.bot) {
         console.log(message.content);
-        message.reply(`Hey ${(0, discord_js_1.userMention)(message.author.id)}! Welcome to The Practise Bot :P`);
+        message.reply(`Hey ${userMention(message.author.id)}! Welcome to The Practise Bot :P`);
         console.log("Message sent successfully!");
     }
     if ((message.content == "Thanks" || message.content === "Thank You") && !message.author.bot) {
@@ -28,7 +26,7 @@ client.on('messageCreate', (message) => {
     if (message.author.bot)
         return;
     if (message.content === "!play") {
-        message.reply(`Okay ${(0, discord_js_1.userMention)(message.author.id)}, Lets Play Rock Paper Sciccors. Its the Only Game I have Currently :)`);
+        message.reply(`Okay ${userMention(message.author.id)}, Lets Play Rock Paper Sciccors. Its the Only Game I have Currently :)`);
         message.channel.send(`Press One: Either R for Rock, P for Paper, OR S for Sciccors`);
         gameState.set(message.author.id, true);
         return;
