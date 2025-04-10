@@ -14,6 +14,7 @@ client.once('ready', () => {
     console.log(`Logged in as ${client.user?.tag}`);
 } )
 
+// !hey Command 
 client.on('messageCreate', (message) => {
     if (message.content === "!hey" && !message.author.bot) {
         console.log(message.content)
@@ -24,9 +25,11 @@ client.on('messageCreate', (message) => {
     if ((message.content == "Thanks" || message.content === "Thank You") && !message.author.bot) {
         message.react("❤️");
         message.reply("You're welcome!")
+        return 0
     }
 })
 
+// Rock Paper Scissors Game 
 const gameState = new Map<string, boolean>()
 
 client.on('messageCreate', (message) => {
@@ -55,6 +58,7 @@ client.on('messageCreate', (message) => {
         } 
     }    
 
+    // Anti-Mahad Code
     if (client.user) {
         if (message.author.id === '760908279454236712') {
             // Check if the bot is mentioned in the message
@@ -65,6 +69,15 @@ client.on('messageCreate', (message) => {
     }
 })
 
+client.on('interactionCreate', async (interaction) => {
+    if (!interaction.isCommand()) return
+
+    const { commandName } = interaction
+
+    if ( commandName === 'ping' ) {
+        await interaction.reply('Pong! My Schlong!!! 8====D')
+    }
+})
 
 
 client.login(process.env.TOKEN)

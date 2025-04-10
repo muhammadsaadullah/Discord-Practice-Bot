@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
-  "type": "module",  
+  "type": "module",
   "scripts": {
-    "dev": "ts-node src/index.ts",
-    "start": "node dist/index.js"
+    "dev": "concurrently \"tsc --watch\" \"nodemon\"",
+    "start": "npm run build && node dist/index.js",
+    "build": "tsc",
+    "register": "node --loader ts-node/esm src/registerCommands.ts"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
+    "concurrently": "^9.1.2",
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
