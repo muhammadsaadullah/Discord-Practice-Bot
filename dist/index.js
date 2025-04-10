@@ -1,4 +1,4 @@
-import { Client, GatewayIntentBits, userMention } from 'discord.js';
+import { Client, EmbedBuilder, GatewayIntentBits, userMention } from 'discord.js';
 import 'dotenv/config';
 const client = new Client({
     intents: [
@@ -67,6 +67,15 @@ client.on('interactionCreate', async (interaction) => {
     const { commandName } = interaction;
     if (commandName === 'ping') {
         await interaction.reply('Pong! My Schlong!!! 8====D');
+    }
+    if (commandName === 'start') {
+        const embed = new EmbedBuilder()
+            .setTitle(`Hey! Lets Start Your Journey. :P`)
+            .setDescription('Start your journey. You wont know what you lost until its too late.')
+            .setColor(0x5D4E8B)
+            .setTimestamp()
+            .setFooter({ text: `${interaction.user.username}`, iconURL: interaction.user.displayAvatarURL() });
+        await interaction.reply({ embeds: [embed] });
     }
 });
 client.login(process.env.TOKEN);
