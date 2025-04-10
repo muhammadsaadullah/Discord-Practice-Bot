@@ -17,7 +17,7 @@ const commands = [
         description: 'Ping Pong Schlong!!',
     },
      new SlashCommandBuilder()
-        .setName('start')
+        .setName('starts')
         .setDescription(`Lesssgggggooooooo!`)
         .toJSON()
 ]
