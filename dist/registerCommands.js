@@ -6,7 +6,13 @@ dotenv.config();
 const token = process.env.TOKEN;
 const guildId = '1359627522161115257'; // Practice Bot Community Server ID
 const clientId = '1359620788650770532';
-const commands = [
+if (!token) {
+    console.error('Error: TOKEN environment variable is missing. Please ensure it is set in your .env file.');
+    process.exit(1);
+}
+const rest = new REST({ version: '10' }).setToken(token);
+// Global commands (will take ~1 hour to update)
+const globalCommands = [
     {
         name: 'ping',
         description: 'Ping Pong Schlong!!',
@@ -16,22 +22,23 @@ const commands = [
         .setDescription(`Lesssgggggooooooo!`)
         .toJSON()
 ];
-if (!token) {
-    console.error('Error: TOKEN environment variable is missing. Please ensure it is set in your .env file.');
-    process.exit(1); // Exit the process with an error code (1 means error)
-}
-const rest = new REST({ version: '10' }).setToken(token);
+// Guild-specific commands (update instantly)
+const guildCommands = [
+    new SlashCommandBuilder()
+        .setName('wallet')
+        .setDescription("I Hope it isn't empty")
+        .toJSON()
+];
 (async () => {
     try {
-        console.log('Started refreshing application (/) commands.');
-        // Global Commands
-        await rest.put(Routes.applicationCommands(clientId), { body: commands });
-        // Guild Specific Commands
-        await rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commands });
-        console.log('Successfully reloaded application (/) commands.');
+        console.log('Started refreshing application (/) commands...');
+        // Global commands
+        await rest.put(Routes.applicationCommands(clientId), { body: globalCommands });
+        // Guild-specific commands (for fast testing)
+        await rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: guildCommands });
+        console.log('Successfully reloaded global and guild (testing) commands!');
     }
     catch (error) {
-        console.log("Error!");
-        console.error(error);
+        console.error('Failed to register commands:', error);
     }
 })();

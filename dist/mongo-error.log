@@ -1,0 +1,3 @@
+[2025-04-13T13:36:42.303Z] MongoNetworkError: 088E0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
+
+

@@ -1,5 +1,8 @@
-import { Client, EmbedBuilder, GatewayIntentBits, userMention } from 'discord.js';
+import { Client, GatewayIntentBits } from 'discord.js';
+import { initializeDatabase } from './database.js';
 import 'dotenv/config';
+// Importing all commands via the barrel file
+import { handleHeyCommand, handleRPSCommand, handleMahadCommand, handleWalletCommand, handlePingCommand, handleFakeWalletCommand } from './Commands/barrel.js';
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
@@ -7,78 +10,81 @@ const client = new Client({
         GatewayIntentBits.MessageContent,
     ]
 });
-client.once('ready', () => {
+// Database connection status flag
+let isDatabaseReady = false;
+client.once('ready', async () => {
     console.log(`Logged in as ${client.user?.tag}`);
-});
-// !hey Command 
-client.on('messageCreate', (message) => {
-    if (message.content === "!hey" && !message.author.bot) {
-        console.log(message.content);
-        message.reply(`Hey ${userMention(message.author.id)}! Welcome to The Practise Bot :P`);
-        console.log("Message sent successfully!");
+    try {
+        // Initialize the database before processing any commands
+        await initializeDatabase();
+        isDatabaseReady = true;
+        console.log('Database is connected!');
     }
-    if ((message.content == "Thanks" || message.content === "Thank You") && !message.author.bot) {
-        message.react("❤️");
-        message.reply("You're welcome!");
-        return 0;
+    catch (error) {
+        console.error('Error connecting to the database:', error);
     }
 });
-// Rock Paper Scissors Game 
-const gameState = new Map();
-client.on('messageCreate', (message) => {
+// Message event handler (Non-Slash Commands)
+client.on('messageCreate', async (message) => {
     if (message.author.bot)
         return;
-    if (message.content === "!play") {
-        message.reply(`Okay ${userMention(message.author.id)}, Lets Play Rock Paper Sciccors. Its the Only Game I have Currently :)`);
-        message.channel.send(`Press One: Either R for Rock, P for Paper, OR S for Sciccors`);
-        gameState.set(message.author.id, true);
-        return;
+    try {
+        if (!isDatabaseReady) {
+            return message.reply('Database is still initializing. Please wait...');
+        }
+        await handleHeyCommand(message);
+        await handleMahadCommand(client, message);
+        await handleRPSCommand(message);
     }
-    if (gameState.get(message.author.id)) {
-        if (message.content === "R") {
-            message.reply("HAHA Nigger Yu LOST!!");
-            gameState.set(message.author.id, false);
-        }
-        else if (message.content === "S") {
-            message.reply("Thats What Gurls do. POOKIE");
-            gameState.set(message.author.id, false);
-        }
-        else if (message.content === "P") {
-            message.reply("WOW You WON Mother FUCKER");
-            gameState.set(message.author.id, false);
-        }
-        else if (message.content != "S" && message.content != "R" && message.content != "P") {
-            message.reply("HEY YU, Smart Alec... ENTER A VALID OPTION");
-        }
-    }
-    // Anti-Mahad Code
-    if (client.user) {
-        if (message.author.id === '760908279454236712') {
-            // Check if the bot is mentioned in the message
-            if (message.mentions.has(client.user)) {
-                message.reply(`I Will TOUCH Yu 2Knight, Ma Nigga..... KAKAROT U R GAE`);
-            }
-        }
+    catch (error) {
+        console.error('Error processing message:', error);
+        await message.reply('Oops! Something went wrong while processing your message.');
     }
 });
+// Slash Commands handler
 client.on('interactionCreate', async (interaction) => {
     if (!interaction.isCommand())
         return;
-    const { commandName } = interaction;
-    if (commandName === 'ping') {
-        await interaction.reply('Pong! My Schlong!!! 8====D');
+    if (!interaction.isChatInputCommand())
+        return;
+    if (!isDatabaseReady) {
+        return interaction.reply('Database is still initializing. Please wait...');
     }
-    const startingMoni = 100000;
-    const startingWorth = 50000;
-    if (commandName === 'starts') {
-        const embed = new EmbedBuilder()
-            .setTitle(`Hey! Lets Start Your Journey. :P`)
-            .setDescription('Start your journey. You wont know what you lost until its too late.')
-            .setFields({ name: '\u000B', value: '\u000B' }, { name: "Starting Moni: Here You go kiddo. Use Wisely.", value: "" }, { name: "", value: `$ ${startingMoni}` }, { name: '\u000B', value: '\u000B' }, { name: "", value: `Yu Worth ALAT, but your worth is ${startingWorth}` })
-            .setColor(0x5D4E8B)
-            .setTimestamp()
-            .setAuthor({ name: `${interaction.user.username}`, iconURL: interaction.user.displayAvatarURL() });
-        await interaction.reply({ embeds: [embed] });
+    const { commandName } = interaction;
+    try {
+        switch (commandName) {
+            case 'ping':
+                await handlePingCommand(interaction);
+                break;
+            case 'starts':
+                await handleFakeWalletCommand(interaction);
+                break;
+            case 'wallet':
+                await handleWalletCommand(interaction);
+                break;
+            default:
+                console.warn(`Unhandled command: ${commandName}`);
+                break;
+        }
+    }
+    catch (error) {
+        if (error.code === 10062) {
+            console.warn('Interaction expired. Cannot reply.');
+        }
+        else {
+            console.error('Error handling interaction:', error);
+            await interaction.reply('Something went wrong while processing your command.');
+        }
     }
 });
+// Log in with the bot token
 client.login(process.env.TOKEN);
+console.log("🔧 Loaded URI from .env");
+// Handle unhandled promise rejections
+process.on('unhandledRejection', (error) => {
+    console.error('Unhandled promise rejection:', error);
+});
+// Handle uncaught exceptions
+process.on('uncaughtException', (error) => {
+    console.error('Uncaught exception:', error);
+});
