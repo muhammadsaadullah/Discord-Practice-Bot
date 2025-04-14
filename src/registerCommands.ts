@@ -25,15 +25,16 @@ const globalCommands = [
     new SlashCommandBuilder()
         .setName('starts')
         .setDescription(`Lesssgggggooooooo!`)
+        .toJSON(),
+    new SlashCommandBuilder()
+        .setName('wallet')
+        .setDescription("I Hope it isn't empty")
         .toJSON()
 ];
 
 // Guild-specific commands (update instantly)
 const guildCommands = [
-    new SlashCommandBuilder()
-        .setName('wallet')
-        .setDescription("I Hope it isn't empty")
-        .toJSON()
+    {}
 ];
 
 (async () => {

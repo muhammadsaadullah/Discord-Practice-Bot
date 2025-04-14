@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.  
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.0.1] - 2025-04-14
+
+### Changed
+- Migrated wallet command from guild-specific registration to global scope.
+- Ensures wallet command are accessible across all connected servers.
+
+
 ## [2.0.0] – 2025-04-14
 
 ### Added
