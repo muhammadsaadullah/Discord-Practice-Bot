@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently \"tsc --watch\" \"nodemon\"",
-    "start": "npm run build && node dist/index.js",
+    "start": "npm run register && npm run build && node dist/index.js",
     "build": "tsc",
     "register": "node --loader ts-node/esm src/registerCommands.ts"
   },
