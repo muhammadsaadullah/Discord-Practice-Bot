@@ -1,8 +1,10 @@
-import { Client, GatewayIntentBits } from 'discord.js';
+import { Client, GatewayIntentBits, MessageFlags } from 'discord.js';
+import { ensureWalletExists } from './Utils/ensureWalletExists.js';
 import { initializeDatabase } from './database.js';
 import 'dotenv/config';
 // Importing all commands via the barrel file
 import { handleHeyCommand, handleRPSCommand, handleMahadCommand, handleWalletCommand, handlePingCommand, handleFakeWalletCommand } from './Commands/barrel.js';
+import { handleDailyCommand } from './Commands/daily.js';
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
@@ -48,10 +50,12 @@ client.on('interactionCreate', async (interaction) => {
     if (!interaction.isChatInputCommand())
         return;
     if (!isDatabaseReady) {
-        return interaction.reply('Database is still initializing. Please wait...');
+        return interaction.reply({ content: 'Database is still initializing. Please wait...', flags: MessageFlags.Ephemeral, });
     }
     const { commandName } = interaction;
     try {
+        // Ensure the user has a wallet before processing commands that depend on it
+        await ensureWalletExists(interaction); // <-- Ensure wallet exists
         switch (commandName) {
             case 'ping':
                 await handlePingCommand(interaction);
@@ -61,6 +65,9 @@ client.on('interactionCreate', async (interaction) => {
                 break;
             case 'wallet':
                 await handleWalletCommand(interaction);
+                break;
+            case 'daily':
+                await handleDailyCommand(interaction);
                 break;
             default:
                 console.warn(`Unhandled command: ${commandName}`);

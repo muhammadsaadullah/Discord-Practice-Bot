@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.  
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.1.1] - 2025-04-15
+
+### Added
+- Introduced `/daily` command:
+  - Starts a daily streak.
+  - Rewards daily profits.
+  - Increases user net worth.
+  - Encourages consistent engagement.
+
+### Changed
+- Updated wallet command logic and UI for better readability and performance.
+- Integrated a global ranking system in `/wallet`:
+  - Rankings are based on the newly added **Total Net Worth** metric.
+
+### Fixed
+- Resolved minor bugs.
+- General feature enhancements and stability improvements.
+
+
 ## [2.0.1] - 2025-04-14
 
 ### Changed

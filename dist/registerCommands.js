@@ -20,22 +20,33 @@ const globalCommands = [
     new SlashCommandBuilder()
         .setName('starts')
         .setDescription(`Lesssgggggooooooo!`)
-        .toJSON()
-];
-// Guild-specific commands (update instantly)
-const guildCommands = [
+        .toJSON(),
     new SlashCommandBuilder()
         .setName('wallet')
         .setDescription("I Hope it isn't empty")
+        .toJSON(),
+    new SlashCommandBuilder()
+        .setName('daily')
+        .setDescription('Dont Do it Daily!')
         .toJSON()
 ];
+// // Guild-specific commands (update instantly)
+// const guildCommands = [
+//     new SlashCommandBuilder()
+//         .setName('test')
+//         .setDescription("I Hope it isn't empty")
+//         .toJSON(),
+// ];
 (async () => {
     try {
         console.log('Started refreshing application (/) commands...');
         // Global commands
         await rest.put(Routes.applicationCommands(clientId), { body: globalCommands });
-        // Guild-specific commands (for fast testing)
-        await rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: guildCommands });
+        // // Guild-specific commands (for fast testing)
+        // await rest.put(
+        //     Routes.applicationGuildCommands(clientId, guildId),
+        //     { body: guildCommands }
+        // );
         console.log('Successfully reloaded global and guild (testing) commands!');
     }
     catch (error) {

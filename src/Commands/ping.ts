@@ -1,6 +1,5 @@
 import { ChatInputCommandInteraction } from "discord.js";
 
-
 export async function handlePingCommand(interaction: ChatInputCommandInteraction) {
     try {
         await interaction.reply('Pong! My Schlong!!! 8====D')

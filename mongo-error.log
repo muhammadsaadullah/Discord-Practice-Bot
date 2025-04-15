@@ -1,424 +1,260 @@
 [2025-04-13T13:42:55.596Z] MongoNetworkError: 10660000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T13:44:40.609Z] MongoNetworkError: F4B10000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T13:44:54.937Z] MongoNetworkError: C01D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T13:45:05.916Z] MongoNetworkError: C01D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T13:45:17.036Z] MongoNetworkError: C01D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T13:48:37.720Z] MongoNetworkError: EC2E0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T13:49:02.335Z] MongoNetworkError: 60730000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:09:41.678Z] MongoServerSelectionError: E4BB0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:10:22.825Z] MongoServerSelectionError: E4BB0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:11:03.014Z] MongoServerSelectionError: E4BB0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:11:43.585Z] MongoServerSelectionError: E4BB0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:12:23.756Z] MongoServerSelectionError: E4BB0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:13:04.210Z] MongoServerSelectionError: E4BB0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:30:36.223Z] MongoServerSelectionError: 50930000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:30:36.239Z] MongoServerSelectionError: 50930000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:31:15.939Z] MongoServerSelectionError: 78120000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:33:06.681Z] MongoServerSelectionError: E85A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:33:06.688Z] MongoServerSelectionError: E85A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:33:46.804Z] MongoServerSelectionError: E85A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:33:46.805Z] MongoServerSelectionError: E85A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:33:46.808Z] MongoServerSelectionError: E85A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:35:12.145Z] MongoServerSelectionError: 54A00000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:35:52.537Z] MongoServerSelectionError: 54A00000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:36:25.823Z] MongoServerSelectionError: 54A00000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:36:25.828Z] MongoServerSelectionError: 54A00000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:37:06.398Z] MongoServerSelectionError: 54A00000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:37:06.401Z] MongoServerSelectionError: 54A00000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:37:46.961Z] MongoServerSelectionError: 54A00000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:37:46.964Z] MongoServerSelectionError: 54A00000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:44:23.765Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:45:03.920Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:45:03.924Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:45:44.391Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:45:44.394Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:46:24.718Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:46:24.720Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:47:04.889Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:47:04.897Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:47:45.377Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:47:45.379Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:48:25.694Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:48:25.698Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:49:08.922Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:49:08.926Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:49:49.300Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:49:49.303Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:50:29.838Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:50:29.840Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:51:10.953Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:51:10.957Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:51:52.022Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:51:52.023Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:52:32.343Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:52:32.345Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:53:12.524Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:53:12.525Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:53:52.754Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:53:52.756Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:54:33.235Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:54:33.238Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:55:13.443Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:55:13.445Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:55:53.654Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:55:53.656Z] MongoServerSelectionError: 5C720000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:57:51.642Z] MongoServerSelectionError: 3C770000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:58:45.315Z] MongoServerSelectionError: F8810000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:59:25.431Z] MongoServerSelectionError: F8810000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T17:59:25.434Z] MongoServerSelectionError: F8810000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T18:01:04.091Z] MongoServerSelectionError: 68B80000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T18:01:39.439Z] MongoServerSelectionError: 68B80000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T18:02:14.519Z] MongoServerSelectionError: 68B80000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T18:02:49.749Z] MongoServerSelectionError: 68B80000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T18:03:24.964Z] MongoServerSelectionError: 68B80000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T18:04:00.724Z] MongoServerSelectionError: 68B80000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T18:04:36.009Z] MongoServerSelectionError: 68B80000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T18:05:11.807Z] MongoServerSelectionError: 68B80000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
-
 [2025-04-13T18:06:05.723Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:06:40.903Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:06:40.906Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:07:17.216Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:07:17.218Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:07:52.406Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:07:52.408Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:08:27.602Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:08:27.603Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:09:02.895Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:09:02.897Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:09:38.658Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:09:38.662Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:10:14.229Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:10:14.232Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:10:49.693Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:10:49.696Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:11:24.884Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:11:24.885Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:12:00.205Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:12:00.207Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:12:36.004Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:12:36.008Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:13:11.836Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:13:11.839Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:13:47.074Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:13:47.075Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:14:22.695Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:14:22.697Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:14:57.851Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:14:57.853Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:15:33.587Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:15:33.589Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:16:08.855Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:16:08.857Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:16:44.176Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:16:44.179Z] MongoServerSelectionError: C89D0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:17:32.918Z] MongoServerSelectionError: E4970000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:18:08.079Z] MongoServerSelectionError: E4970000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:19:07.556Z] MongoServerSelectionError: C4340000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:19:43.430Z] MongoServerSelectionError: C4340000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:20:18.675Z] MongoServerSelectionError: C4340000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:21:51.468Z] MongoServerSelectionError: 8C860000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:23:30.694Z] MongoServerSelectionError: 5C910000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:24:05.754Z] MongoServerSelectionError: 5C910000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:24:40.926Z] MongoServerSelectionError: 5C910000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:25:16.097Z] MongoServerSelectionError: 5C910000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:25:51.657Z] MongoServerSelectionError: 5C910000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:26:27.182Z] MongoServerSelectionError: 5C910000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:27:02.320Z] MongoServerSelectionError: 5C910000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:27:38.389Z] MongoServerSelectionError: 5C910000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:28:17.847Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:28:53.299Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:28:53.302Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:29:28.560Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:29:28.563Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:30:03.762Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:30:03.764Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:30:39.426Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:30:39.429Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:31:14.637Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:31:14.639Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:31:49.861Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:31:49.863Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:32:25.004Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:32:25.007Z] MongoServerSelectionError: 6C850000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:34:26.586Z] MongoServerSelectionError: 189A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:35:01.813Z] MongoServerSelectionError: 189A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:35:01.815Z] MongoServerSelectionError: 189A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:35:36.884Z] MongoServerSelectionError: 189A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:35:36.887Z] MongoServerSelectionError: 189A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:36:12.834Z] MongoServerSelectionError: 189A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:36:12.836Z] MongoServerSelectionError: 189A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:36:48.091Z] MongoServerSelectionError: 189A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:36:48.093Z] MongoServerSelectionError: 189A0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:37:49.032Z] MongoServerSelectionError: D4780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:38:24.188Z] MongoServerSelectionError: D4780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:38:59.469Z] MongoServerSelectionError: D4780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:39:34.628Z] MongoServerSelectionError: D4780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:40:09.993Z] MongoServerSelectionError: D4780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:40:45.140Z] MongoServerSelectionError: D4780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:41:20.449Z] MongoServerSelectionError: D4780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:41:55.756Z] MongoServerSelectionError: D4780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:42:30.940Z] MongoServerSelectionError: D4780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:43:06.363Z] MongoServerSelectionError: D4780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:44:17.516Z] MongoServerSelectionError: 34780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:44:53.192Z] MongoServerSelectionError: 34780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:44:53.195Z] MongoServerSelectionError: 34780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:45:28.437Z] MongoServerSelectionError: 34780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:45:28.439Z] MongoServerSelectionError: 34780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:46:03.513Z] MongoServerSelectionError: 34780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:46:03.515Z] MongoServerSelectionError: 34780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:46:38.890Z] MongoServerSelectionError: 34780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:46:38.893Z] MongoServerSelectionError: 34780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:47:14.098Z] MongoServerSelectionError: 34780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:47:14.101Z] MongoServerSelectionError: 34780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:47:49.248Z] MongoServerSelectionError: 34780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
 [2025-04-13T18:47:49.250Z] MongoServerSelectionError: 34780000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:c:\ws\deps\openssl\openssl\ssl\record\rec_layer_s3.c:1590:SSL alert number 80
-
+[2025-04-14T18:38:21.963Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T18:39:27.621Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T18:40:33.310Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T18:41:36.570Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T18:41:36.572Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T18:41:36.573Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T18:44:51.468Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T18:48:02.174Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T18:49:07.810Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T18:50:13.481Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T18:52:44.540Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T18:58:55.553Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:00:01.210Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:00:01.213Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:01:04.515Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:01:04.517Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:01:04.518Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:02:10.246Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:02:10.248Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:02:10.250Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:03:15.935Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:03:15.937Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:03:15.940Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:04:21.610Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:04:21.613Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:04:21.614Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:05:27.341Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:05:27.343Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:05:27.344Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:06:33.178Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:06:33.189Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T19:06:33.191Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T21:37:06.069Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T21:37:06.069Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T21:37:06.070Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T21:37:11.084Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T21:37:11.085Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T21:37:11.087Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T21:37:16.087Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T21:37:16.089Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-14T21:37:16.089Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:25.875Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:25.885Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:25.886Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:30.893Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:30.895Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:30.897Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:35.904Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:35.905Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:35.906Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:40.914Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:40.915Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:40.915Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:45.928Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:45.929Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:45.929Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:50.935Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:50.936Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:50.937Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:55.937Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:55.938Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:05:55.939Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:00.940Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:00.941Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:00.942Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:05.950Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:05.951Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:05.952Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:10.964Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:10.965Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:10.966Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:15.976Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:15.977Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:15.978Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:20.982Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:20.982Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:20.983Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:25.997Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:25.998Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:25.998Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:31.013Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:31.016Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:06:31.020Z] Error: querySrv ECONNREFUSED _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:07:36.455Z] Error: querySrv ETIMEOUT _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:07:36.457Z] Error: querySrv ETIMEOUT _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-15T03:07:36.459Z] Error: querySrv ETIMEOUT _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
