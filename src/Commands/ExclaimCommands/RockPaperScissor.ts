@@ -23,13 +23,15 @@ export async function handleRPSCommand(message: Message) {
         
         if (gameState.get(message.author.id)) {
             if (message.content === "R"){
-                message.reply("HAHA Nigger Yu LOST!!")
+                // message.reply("HAHA Nigger Yu LOST!!")
+                message.reply("HAHA Yu LOST!!")
                 gameState.set(message.author.id, false)
             } else if (message.content === "S") {
                 message.reply("Thats What Gurls do. POOKIE")
                 gameState.set(message.author.id, false)
             } else if (message.content === "P"){
-                message.reply("WOW You WON Mother FUCKER")
+                // message.reply("WOW You WON Mother FUCKER")
+                message.reply("WOW You WON Mother")
                 gameState.set(message.author.id, false)
             } else if (message.content != "S" && message.content != "R" && message.content != "P" ) {
                 message.reply("HEY YU, Smart Alec... ENTER A VALID OPTION")

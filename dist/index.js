@@ -32,7 +32,12 @@ client.on('messageCreate', async (message) => {
         return;
     try {
         if (!isDatabaseReady) {
-            return message.reply('Database is still initializing. Please wait...');
+            const reply = await message.reply('Database is still initializing. Please wait...');
+            // Delete message in 5 Sec
+            setTimeout(() => {
+                reply.delete().catch(() => { }); // avoid crashing if already deleted
+            }, 5000);
+            return;
         }
         await handleHeyCommand(message);
         await handleMahadCommand(client, message);
@@ -40,7 +45,11 @@ client.on('messageCreate', async (message) => {
     }
     catch (error) {
         console.error('Error processing message:', error);
-        await message.reply('Oops! Something went wrong while processing your message.');
+        const sentMessage = await message.reply('Oops! Something went wrong while processing your message.');
+        // Delete message in 5 sec
+        setTimeout(() => {
+            sentMessage.delete().catch(console.error); // Catch error if already deleted
+        }, 5000);
     }
 });
 // Slash Commands handler
@@ -50,7 +59,7 @@ client.on('interactionCreate', async (interaction) => {
     if (!interaction.isChatInputCommand())
         return;
     if (!isDatabaseReady) {
-        return interaction.reply({ content: 'Database is still initializing. Please wait...', flags: MessageFlags.Ephemeral, });
+        return interaction.reply({ content: 'Database is still initializing. Please wait...', flags: MessageFlags.Ephemeral });
     }
     const { commandName } = interaction;
     try {
@@ -80,7 +89,7 @@ client.on('interactionCreate', async (interaction) => {
         }
         else {
             console.error('Error handling interaction:', error);
-            await interaction.reply('Something went wrong while processing your command.');
+            await interaction.reply({ content: 'Something went wrong while processing your command.', flags: MessageFlags.Ephemeral });
         }
     }
 });

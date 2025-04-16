@@ -2,7 +2,7 @@
 // ExclaimCommands
 export { handleHeyCommand } from './ExclaimCommands/hey.js';
 export { handleRPSCommand } from './ExclaimCommands/RockPaperScissor.js';
-export { handleMahadCommand } from './ExclaimCommands/antiMahadCode.js';
+export { handleMahadCommand } from './OtherCommands/antiMahadCode.js';
 // Other commands
 export { handleWalletCommand } from './wallet.js';
 export { handlePingCommand } from './ping.js';

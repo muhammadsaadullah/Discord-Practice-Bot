@@ -3,7 +3,7 @@ export async function handleHeyCommand(message) {
     try {
         if (message.content === "!hey" && !message.author.bot) {
             console.log(message.content);
-            message.reply(`Hey ${userMention(message.author.id)}! Welcome to The Practise Bot :P`);
+            message.reply(`Hey ${userMention(message.author.id)}! Welcome to Meowmurrr 🐾 :P`);
             console.log("Message sent successfully!");
         }
         if ((message.content == "Thanks" || message.content === "Thank You") && !message.author.bot) {

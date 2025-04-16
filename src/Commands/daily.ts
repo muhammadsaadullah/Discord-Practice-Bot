@@ -37,7 +37,11 @@ export async function handleDailyCommand(interaction: ChatInputCommandInteractio
 
         const canCheckIn = async (userId: string): Promise<boolean> => {
             const user = await userDB.findOne({ userId }) as WithId<userData>;
-            if (!user.lastCheckIn) return true;
+            if (user.lastCheckIn === "undefined") {
+                return true;
+            } else if (!user.lastCheckIn){
+                return true;
+            }
 
             const now = new Date();
             const last = new Date(user.lastCheckIn);
@@ -46,6 +50,7 @@ export async function handleDailyCommand(interaction: ChatInputCommandInteractio
         };
 
         const isEligible = await canCheckIn(user.id);
+        console.log(isEligible)
 
         if (!isEligible) {
             const now = new Date();
@@ -63,9 +68,9 @@ export async function handleDailyCommand(interaction: ChatInputCommandInteractio
 
         // Eligible for daily:
         const streak = pUser.dailyStreak + 1;
-        const bonus = streak * 10000;
-        const min = 100000;
-        const max = 110000;
+        const bonus = streak * 10000; // streak x 10k | so if eg streak is 5 so youll get 50k more
+        const min = 100000; // 1 lac 
+        const max = 110000; // 1 lac 10k 
         const Moni = Math.floor(Math.random() * (max - min + 1)) + min + bonus;
 
         // Update DB
