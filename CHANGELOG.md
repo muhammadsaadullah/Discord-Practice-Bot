@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.  
 This project adheres to [Semantic Versioning](https://semver.org/).
 
+# Changelog
+
+## [1.4.0] - 2025-04-16
+
+### ✨ Added
+- Daily streak manager for `/daily`
+- International number formatter for wallet balances
+- Fun meme-based replies and MeowMurrr humor system
+- `/wallet` command to check own and others’ balance
+- `/help` command to show command usage
+
+### 🛠️ Changed
+- Improved internal command logic and code structure
+- Moved registration from slash command `/start` to prefix `!wallet`
+- Moved `/start` functionality to `!wallet` (prefix command); slash version deprecated
+
+### 🐞 Fixed
+- Minor bugs in command handling
+- Wallet lookup errors
+
+### ⚠️ Deprecated
+- `/start` command temporarily removed (to be revived later)
+
+---
+
+
+## [2.1.1] - 2024-04-16
+
+### Just a Small Patch
+- Renamed bot from *Practice Bot* to **Meowmurrr** and refreshed branding
+- Made behavior adjustments to better align with Top.gg community standards
+- Improved internal logic, fixed bugs, and optimized performance
+- Added auto-delete for log messages to keep channels clean
+
 ## [2.1.0] - 2025-04-15
 
 ### Added

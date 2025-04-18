@@ -2,13 +2,14 @@ import { Message, userMention } from "discord.js";
 
 export async function handleHeyCommand(message: Message) {
     try{
-        if (message.content === "!hey" && !message.author.bot) {
-            console.log(message.content)
+        if (message.content.toLowerCase() === "!hey" && !message.author.bot) {
             message.reply(`Hey ${userMention(message.author.id)}! Welcome to Meowmurrr 🐾 :P`)
-            console.log("Message sent successfully!")
         }
+        
+        const list = ["thanks", "thank you", "thx", "thnx", "thanx"]
+        const msg_content = message.content
 
-        if ((message.content == "Thanks" || message.content === "Thank You") && !message.author.bot) {
+        if ((list.some((word) => msg_content.includes(word))) && !message.author.bot) {
             message.react("❤️");
             message.reply("You're welcome!")
             return 0

@@ -22,17 +22,26 @@ const globalCommands = [
         name: 'ping',
         description: 'Ping Pong Schlong!!',
     },
-    new SlashCommandBuilder()
-        .setName('starts')
-        .setDescription(`Lesssgggggooooooo!`)
-        .toJSON(),
+    // new SlashCommandBuilder()
+    //     .setName('start')
+    //     .setDescription(`Lesssgggggooooooo!`)
+    //     .toJSON(),
     new SlashCommandBuilder()
         .setName('wallet')
         .setDescription("I Hope it isn't empty")
+        .addUserOption(option => 
+            option.setName('user')
+                .setDescription("Want to take a peak at someone else's moni, huh?")
+                .setRequired(false)  // This makes it optional
+        )
         .toJSON(),
     new SlashCommandBuilder()    
         .setName('daily')
         .setDescription('Dont Do it Daily!')
+        .toJSON(),
+    new SlashCommandBuilder()
+        .setName('help')
+        .setDescription('Welp!...   Heeellll... *beep* *beep*')
         .toJSON()
 ];
 

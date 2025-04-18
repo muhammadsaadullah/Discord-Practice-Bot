@@ -1,10 +1,11 @@
 import { Client, GatewayIntentBits, MessageFlags } from 'discord.js';
 import { ensureWalletExists } from './Utils/ensureWalletExists.js';
+import { ensureBotAccount } from './Utils/ensureBotAccount.js';
 import { initializeDatabase } from './database.js';
 import 'dotenv/config';
 // Importing all commands via the barrel file
-import { handleHeyCommand, handleRPSCommand, handleMahadCommand, handleWalletCommand, handlePingCommand, handleFakeWalletCommand } from './Commands/barrel.js';
-import { handleDailyCommand } from './Commands/daily.js';
+import { handleHeyCommand, handleRPSCommand, handleMahadCommand, handleWalletCommand, handlePingCommand, handleFakeWalletCommand, handleDailyCommand, handleMeowmurrrCommand, } from './Commands/barrel.js';
+import { handleHelpCommand } from './Commands/help.js';
 const client = new Client({
     intents: [
         GatewayIntentBits.Guilds,
@@ -16,6 +17,7 @@ const client = new Client({
 let isDatabaseReady = false;
 client.once('ready', async () => {
     console.log(`Logged in as ${client.user?.tag}`);
+    await ensureBotAccount(client);
     try {
         // Initialize the database before processing any commands
         await initializeDatabase();
@@ -31,6 +33,7 @@ client.on('messageCreate', async (message) => {
     if (message.author.bot)
         return;
     try {
+        // Remove for production, 0 sense to use it on messages 
         if (!isDatabaseReady) {
             const reply = await message.reply('Database is still initializing. Please wait...');
             // Delete message in 5 Sec
@@ -39,9 +42,12 @@ client.on('messageCreate', async (message) => {
             }, 5000);
             return;
         }
+        await handleFakeWalletCommand(message);
         await handleHeyCommand(message);
         await handleMahadCommand(client, message);
         await handleRPSCommand(message);
+        await handleMeowmurrrCommand(client, message);
+        await handleHelpCommand({ message, client });
     }
     catch (error) {
         console.error('Error processing message:', error);
@@ -69,14 +75,17 @@ client.on('interactionCreate', async (interaction) => {
             case 'ping':
                 await handlePingCommand(interaction);
                 break;
-            case 'starts':
-                await handleFakeWalletCommand(interaction);
-                break;
+            // case 'start':
+            //     // await handleStartCommand(interaction);
+            //     break;
             case 'wallet':
                 await handleWalletCommand(interaction);
                 break;
             case 'daily':
                 await handleDailyCommand(interaction);
+                break;
+            case 'help':
+                await handleHelpCommand({ interaction, client });
                 break;
             default:
                 console.warn(`Unhandled command: ${commandName}`);

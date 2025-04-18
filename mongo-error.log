@@ -258,3 +258,9 @@
 [2025-04-15T03:07:36.455Z] Error: querySrv ETIMEOUT _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
 [2025-04-15T03:07:36.457Z] Error: querySrv ETIMEOUT _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
 [2025-04-15T03:07:36.459Z] Error: querySrv ETIMEOUT _mongodb._tcp.practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-18T12:59:17.298Z] MongoServerSelectionError: read ECONNRESET
+[2025-04-18T12:59:47.584Z] MongoServerSelectionError: read ECONNRESET
+[2025-04-18T12:59:47.587Z] MongoServerSelectionError: read ECONNRESET
+[2025-04-18T13:00:22.850Z] MongoServerSelectionError: read ECONNRESET
+[2025-04-18T13:00:22.851Z] MongoServerSelectionError: read ECONNRESET
+[2025-04-18T13:01:32.129Z] MongoServerSelectionError: read ECONNRESET

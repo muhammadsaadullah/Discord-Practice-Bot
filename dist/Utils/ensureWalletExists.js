@@ -16,6 +16,8 @@ export async function ensureWalletExists(interaction) {
         if (!pUser) {
             const newUser = {
                 userId: user.id,
+                username: user.username,
+                displayName: user.displayName,
                 balance: 1000,
                 totalNetWorth: 1000,
                 dailyStreak: 0,
@@ -28,19 +30,19 @@ export async function ensureWalletExists(interaction) {
         }
         else {
             const updates = {};
-            if (pUser.totalItemWorth === undefined) {
+            if (pUser.username !== user.username)
+                updates.username = user.username;
+            if (pUser.displayName !== user.displayName)
+                updates.displayName = user.displayName;
+            if (pUser.totalItemWorth === undefined)
                 updates.totalItemWorth = 0;
-            }
-            if (pUser.totalNetWorth === undefined) {
+            if (pUser.totalNetWorth === undefined)
                 updates.totalNetWorth = pUser.balance + (pUser.totalItemWorth ?? 0);
-            }
-            if (pUser.dailyStreak === undefined) {
+            if (pUser.dailyStreak === undefined)
                 updates.dailyStreak = 0;
-            }
             let TNWorth = pUser.balance + (pUser.totalItemWorth ?? 0);
-            if (pUser.totalNetWorth !== TNWorth) {
+            if (pUser.totalNetWorth !== TNWorth)
                 updates.totalNetWorth = TNWorth;
-            }
             if (Object.keys(updates).length > 0) {
                 await userDB.updateOne({ _id: pUser._id }, { $set: updates });
                 // Re-fetch updated user

@@ -8,7 +8,7 @@ export async function handleRPSCommand(message: Message) {
     if (message.author.bot) return;
 
     try {
-        if (message.content === "!play") {
+        if (message.content.toLowerCase() === "!play") {
             message.reply(`Okay ${userMention(message.author.id)}, Lets Play Rock Paper Sciccors. Its the Only Game I have Currently :)`)
             // Check if the channel is a TextChannel before sending a message
             if (message.channel instanceof TextChannel) {

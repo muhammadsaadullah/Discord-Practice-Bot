@@ -12,5 +12,5 @@ export async function handleMahadCommand(client: Client, message:Message) {
         }
     } catch (error) {
         console.error('Error handling message:', error);
-    }      
+    }
 }

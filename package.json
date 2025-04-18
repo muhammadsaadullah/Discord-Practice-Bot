@@ -14,12 +14,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.8.4",
     "discord.js": "^14.18.0",
     "dotenv": "^16.5.0",
     "mongodb": "^6.15.0",
     "mongoose": "^8.13.2"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.4",
     "@types/mongodb": "^4.0.7",
     "@types/node": "^22.14.0",
     "concurrently": "^9.1.2",

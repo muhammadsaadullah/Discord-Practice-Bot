@@ -1,5 +1,6 @@
 import { ChatInputCommandInteraction, EmbedBuilder, MessageFlags } from "discord.js";
 import { getDb } from "../database.js"; // Ensure this imports the DB correctly
+import { fMoni, fStr } from "../Utils/formatters.js";
 import { WithId } from "mongodb";
 
 interface userData {
@@ -11,22 +12,26 @@ interface userData {
 
 export async function handleWalletCommand(interaction: ChatInputCommandInteraction) {
     try {
+        console.log(interaction)
         const db = await getDb();
         if (!db) {
           return interaction.reply({content:"⚠️ Database not available. Please try again later.",  flags: MessageFlags.Ephemeral,});
         }
         const userDB = db.collection<userData>('users');
         const user = interaction.user; 
+        
+        // Get the target user from options, or default to the current user if no target is specified
+        const targetUser = interaction.options.getUser('target') || user; // Default to the invoking user if no target
 
-        // Try to find an existing wallet for the user
-        let pUser = await userDB.findOne({ userId: user.id }) as WithId<userData>;
+        // Fetch user data for the target user
+        let pUser = await userDB.findOne({ userId: targetUser.id }) as WithId<userData>;
         
         const player = await userDB.find().toArray();
 
 
         if (!pUser) {
             return interaction.reply({
-              content: "❌ Couldn't create or fetch your wallet. Please try again.",
+              content: "❌ Couldn't create or fetch the wallet. Please try again.",
                flags: MessageFlags.Ephemeral,
             });
         }
@@ -42,9 +47,9 @@ export async function handleWalletCommand(interaction: ChatInputCommandInteracti
             rankedUsers.sort((a, b) => b.totalNetWorth - a.totalNetWorth);
     
             // Step 4: Find this user's rank and data
-            const rankIndex = rankedUsers.findIndex(u => u.userId === user.id);
+            const rankIndex = rankedUsers.findIndex(u => u.userId === targetUser.id);
             const userData = rankedUsers[rankIndex];
-            const rankFormatted = `#${(rankIndex + 1).toLocaleString()}`;
+            const rankFormatted = `#${fStr((rankIndex + 1).toLocaleString())}`;
             const totalUsers = rankedUsers.length.toLocaleString();
     
 
@@ -53,9 +58,9 @@ export async function handleWalletCommand(interaction: ChatInputCommandInteracti
         // Create an embed to show the user's wallet balance
         // ‎ is a invisble character
         const embed = new EmbedBuilder()
-            .setTitle(`${user.displayName || user.username}'s Wallet `)
+            .setTitle(`${targetUser.displayName || targetUser.username}'s Wallet`)  
             .setURL("https://www.youtube.com/watch?v=uHC3PIYbXCY")
-            .setDescription(`**Cash:**‎  ‎ ⟐ ${pUser.balance} \n**Total Net:**‎ ‎ ⟐ ${pUser.totalNetWorth}`) 
+            .setDescription(`**Cash:**‎  ‎ ⟐ ${fMoni(pUser.balance)} \n**Total Net:**‎ ‎ ⟐ ${fMoni(pUser.totalNetWorth)}`) 
             .setFooter({ text: `Global Rank: ${rankFormatted}` }) 
             .setColor(0x5D4E8B) // Purple color for the embed
        
