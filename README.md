@@ -2,7 +2,7 @@
 
 A robust, modular Discord bot architecture built for maintainability, observability, and scalability.
 
-[![Version](https://img.shields.io/badge/version-2.1.0-orange)](https://github.com/muhammadsaadullah/Discord-Practice-Bot/releases)  
+[![Version](https://img.shields.io/badge/version-2.2.0-orange)](https://github.com/muhammadsaadullah/Discord-Practice-Bot/releases)  
 [![License: Apache-2.0](https://img.shields.io/badge/license-Apache%202.0-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Deployment](https://img.shields.io/badge/deployment-Railway-green)](https://railway.app)
 
