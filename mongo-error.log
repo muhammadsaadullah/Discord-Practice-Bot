@@ -264,3 +264,60 @@
 [2025-04-18T13:00:22.850Z] MongoServerSelectionError: read ECONNRESET
 [2025-04-18T13:00:22.851Z] MongoServerSelectionError: read ECONNRESET
 [2025-04-18T13:01:32.129Z] MongoServerSelectionError: read ECONNRESET
+[2025-04-23T07:05:48.830Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:06:49.434Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:06:49.436Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:07:55.047Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:07:55.048Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:09:00.734Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:09:00.735Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:09:00.736Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:10:01.884Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:10:01.886Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:10:01.887Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:10:01.888Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:11:07.580Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:11:07.582Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:11:07.583Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:11:07.584Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:12:13.148Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:12:13.149Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:12:13.150Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:12:13.151Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:13:18.791Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:13:18.793Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:13:18.794Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:13:18.794Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:14:24.408Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:14:24.409Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:14:24.410Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:14:24.410Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:15:30.079Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:15:30.080Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:15:30.081Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:15:30.081Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:16:35.778Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:16:35.781Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:16:35.782Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:16:35.783Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:17:41.421Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:17:41.422Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:17:41.422Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:17:41.423Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:19:41.554Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:20:42.225Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:20:42.226Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:21:47.888Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:21:47.889Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:22:53.543Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:22:53.544Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:23:59.195Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:23:59.196Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:25:04.863Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:25:04.864Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:26:10.325Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-23T07:26:10.326Z] Error: queryTxt ETIMEOUT practice-bot-cluster-01.pptlrwl.mongodb.net
+[2025-04-28T12:17:55.053Z] MongoServerSelectionError: read ECONNRESET
+[2025-04-28T12:18:49.498Z] MongoServerSelectionError: read ECONNRESET
+[2025-04-28T12:19:19.692Z] MongoServerSelectionError: read ECONNRESET
+[2025-04-28T12:19:19.693Z] MongoServerSelectionError: read ECONNRESET

@@ -4,8 +4,10 @@ All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](https://semver.org/).
 
 # Changelog
+## [2.3.0] - 2024-04-16
+- updates will be added tommorow
 
-## [1.4.0] - 2025-04-16
+## [2.2.0] - 2025-04-16
 
 ### ✨ Added
 - Daily streak manager for `/daily`

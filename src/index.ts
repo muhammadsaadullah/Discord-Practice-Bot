@@ -1,6 +1,7 @@
 import { Client, GatewayIntentBits, MessageFlags } from 'discord.js';
 import { ensureWalletExists } from './Utils/ensureWalletExists.js';
 import { ensureBotAccount } from './Utils/ensureBotAccount.js';
+import { logGuildsDaily } from './Utils/guildLogger.js';
 import { initializeDatabase } from './database.js';
 import 'dotenv/config';
 
@@ -31,6 +32,13 @@ let isDatabaseReady = false;
 
 client.once('ready', async () => {
     console.log(`Logged in as ${client.user?.tag}`);
+
+    // 👇 Add this block to log all current servers
+     console.log(`🧠 Guilds the bot is currently in:`);
+     client.guilds.cache.forEach(guild => {
+         console.log(`- ${guild.name} (ID: ${guild.id})`);
+     });
+    
     await ensureBotAccount(client)
     try {
         // Initialize the database before processing any commands
@@ -40,6 +48,15 @@ client.once('ready', async () => {
     } catch (error) {
         console.error('Error connecting to the database:', error);
     }
+
+    // Run once at startup
+    await logGuildsDaily(client);
+
+    // Then every 24 hours
+    setInterval(() => {
+        logGuildsDaily(client).catch(console.error);
+    }, 24 * 60 * 60 * 1000); // 24 hours
+
 });
 
 // Message event handler (Non-Slash Commands)
